@@ -1053,3 +1053,43 @@
 // var a= document.getElementsByClassName("render")
 // console.log(a)
 
+
+// iv. Fill input value whose element id first-name using javascript.
+
+// function firstName(name){
+//     var result = document.getElementById("result");
+//     result.value =  name; 
+// }
+// firstName("Muhammad")
+
+// v. Repeat part iv for id ”last-name” and “email”.
+
+// function lastName(name){
+//     var result = document.getElementById("result");
+//     result.value =  name; 
+// }
+// lastName("Abid")
+
+// function email(name){
+//     var result = document.getElementById("result");
+//     result.value =  name; 
+// }
+// email("abidkhyber93@gmail.com")
+
+// 2. use HTML code of question 1 and show the result on browser.
+
+// i. What is node type of element having id “form-content”.
+
+// var a = document.getElementById("form-content")
+// console.log(a.nodeType)
+
+// ii. Show node type of element having id “lastName” and its child node.
+
+// var a = document.getElementById("lastName")
+// console.log(a.nodeType)
+// console.log(a.childNodes)
+
+// iii. Update child node of element having id “lastName”.
+
+// var a= document.getElementById("lastName");
+// console.log(a.)
