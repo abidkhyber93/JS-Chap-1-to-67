@@ -1091,5 +1091,28 @@
 
 // iii. Update child node of element having id “lastName”.
 
-// var a= document.getElementById("lastName");
-// console.log(a.)
+// document.getElementById("lastName").innerHTML = "newId";
+
+// iv. Get First and last child of id “main-content”.
+
+// Fist child
+// var a = document.getElementById("main-content")
+// console.log(a.childNodes[0])
+// var x = document.getElementById("main-content").firstElementChild.innerHTML;
+
+// // Last Child
+
+// var x = document.getElementById("main-content").lastElementChild.innerHTML;
+// console.log(x)
+
+// v. Get next and previous siblings of id “lastName”.
+
+// var x = document.getElementById("lastName").previousSibling;
+// console.log(x)
+// var x = document.getElementById("lastName").nextSibling;
+// console.log(x)
+
+// vi. Get parent node and node type of element having id “email”
+
+// var x = document.getElementById("email").parentElement.nodeType;
+// console.log(x)
